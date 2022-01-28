@@ -1,0 +1,312 @@
+body
+{
+	background-color: #ffff;
+	background-image: linear-gradient(#ffffff 20%, #def0fc 70%, #ccdeeb 80%);
+	color: #ffffff;
+}
+
+#container
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.rectangle
+{
+	width: 960px;
+	margin: 20px;
+	text-align: center;
+	color: #0F4C77;
+	padding-top: 10px;
+}
+
+.square
+{
+	width: 50%;
+	float: left;
+}
+
+#logo
+{
+	color: white;
+	font-size: 44px;
+	letter-spacing: 3px;
+	width: 100%;
+	height: 90%;	
+}
+
+#zegar
+{
+	float: right;
+	font-size: 24px;
+	color: #0F4C77;
+	text-align: right;
+}
+
+.tileFront
+{
+	
+	background-color: #96BBF7;
+	border-radius: 10px;
+	height: 220px;
+	text-align: center;
+	font-family: Calibri;
+	font-weight:bold;
+	font-size: 20px;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+
+.tile1
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #8bafe9;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+
+.tileContent {
+	margin: 0;
+  	position: relative;
+  	top: 50%;
+  	left: 50%;
+ 	transform: translate(-50%, -50%);
+}
+
+.tile1:hover
+{
+	background-color: #2084c2;
+}
+
+.tile2
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #485975;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+
+.tile2:hover
+{
+	background-color: #2084c2;
+}
+.tile3
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #B0B7C2;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+
+.tile3:hover
+{
+	background-color: #2084c2;
+}
+.tile4
+{
+	margin: 10px;
+	width: 480px;
+	height: 142px;
+	background-color: #0F4C77;
+	border-radius: 10px;
+	text-align: center;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+
+.contact {
+	display: none;	
+	padding: 20px;
+  }
+  .contactContent
+  {
+	font-family: calibri;
+	font-size: 18px;
+	font-style: italic;
+  }
+  .tile4:hover {
+	background-color: #2084c2;
+  }
+
+.tile4:hover .contact {
+	display: block;
+}
+
+.tile7
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #083B8C;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+
+}
+.tile7:hover
+{
+	background-color: #2084c2;
+}
+
+.tile6
+{
+	margin: 10px;
+	width: 230px;
+	height: 142px;
+	background-color: #4f80cf;
+	float: left;
+	border-radius: 10px;
+	text-align: center;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+
+}
+.tile6:hover
+{
+	background-color: #16557c;
+}
+
+.tile5
+{
+	margin: 10px;
+	width: 420px;
+	height: 405px;
+	background-color: #666666;
+	text-align: justify;
+	padding: 30px;
+	border-radius: 10px;
+	font-family: calibri;
+}
+
+.yt
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d94348;
+	border-radius: 10px;
+	float: left;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+.yt:hover
+{
+	background-color: #c83237;
+}
+.fb
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #4668b3;
+	border-radius: 10px;
+	float: left;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+.fb:hover
+{
+	background-color: #3557a2;
+}
+.gplus
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #d95333;
+	border-radius: 10px;
+	float: left;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+.gplus:hover
+{
+	background-color: #c84222;
+}
+.tw
+{
+	margin: 10px;
+	width: 105px;
+	height: 142px;
+	background-color: #3095d3;
+	border-radius: 10px;
+	float: left;
+	-webkit-transition: background-color 2s ease-out;
+  	-moz-transition: background-color 2s ease-out;
+  	-o-transition: background-color 2s ease-out;
+  	transition: background-color 2s ease-out;
+}
+.tw:hover
+{
+	background-color: #2084b2;
+}
+.image 
+{	
+	margin: 10px;
+	margin-left: 10px;	
+}
+
+.rectangle .image {
+	margin-top: 20px !important;
+}
+
+.input 
+{
+margin-top:50px;
+border-color:#0F4C77;
+border-radius: 10px;
+width: 150px;
+height: 40px;
+margin-left: 5px;
+font-size: 15px;
+color: #0F4C77;
+font-family: calibri;
+text-align: center;
+}
+
+a.internal {
+	color: white;
+	text-decoration: none;
+}
+a.internal:visited {
+	color: white;
+	text-decoration: none;
+}
